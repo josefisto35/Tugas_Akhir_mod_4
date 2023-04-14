@@ -89,11 +89,9 @@ st.pyplot(fig)
 # menambahkan link dan memusatkan teks
 st.write('\n\n\n')
 st.markdown('<center>Dataset yang digunakan: <a href="https://www.kaggle.com/sudalairajkumar/cryptocurrencypricehistory">Cryptocurrency Historical Prices</a> on Kaggle</center>', unsafe_allow_html=True)
+st.markdown('<center>Projek Github: <a href="https://tifupb.id/Github-Mod4">Prediksi Harga Jual Koin Kripto</a></center>', unsafe_allow_html=True)
 
 # menambahkan link dan memusatkan teks
 st.write('\n\n\n')
 st.markdown('<center>Created by Jose Fisto ( 312010119 )</center>', unsafe_allow_html=True)
 st.markdown('<center>Created by Sardin     ( 312010135 )</center>', unsafe_allow_html=True)
-
-if __name__ == '__main__':
-    main()
