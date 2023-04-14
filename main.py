@@ -94,6 +94,3 @@ st.markdown('<center>Dataset yang digunakan: <a href="https://www.kaggle.com/sud
 st.write('\n\n\n')
 st.markdown('<center>Created by Jose Fisto ( 312010119 )</center>', unsafe_allow_html=True)
 st.markdown('<center>Created by Sardin     ( 312010135 )</center>', unsafe_allow_html=True)
-
-if __name__ == '__main__':
-    main()
