@@ -95,3 +95,8 @@ st.markdown('<center>Projek Github: <a href="https://tifupb.id/Github-Mod4">Pred
 st.write('\n\n\n')
 st.markdown('<center>Created by Jose Fisto ( 312010119 )</center>', unsafe_allow_html=True)
 st.markdown('<center>Created by Sardin     ( 312010135 )</center>', unsafe_allow_html=True)
+
+try:
+    reg.fit(X_train, y_train)
+except NameError:
+    pass
