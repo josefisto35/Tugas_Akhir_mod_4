@@ -50,8 +50,7 @@ st.write("<h1 style='text-align: center'>Prediksi Harga Koin Kripto</h1>", unsaf
 
 coin_list = sorted(df['Coin'].unique())
 
-coin_choice = st.sidebar.selectbox('Pilih Koin', coin_lis)
-
+coin_choice = st.sidebar.selectbox('Pilih Koin', coin_list)
 
 feature_cols = ['High', 'Low', 'Open', 'Close', 'Volume', 'Marketcap']
 
@@ -132,7 +131,6 @@ else:
     plt.legend()
 
     st.pyplot()
-
 
 
 
