@@ -42,13 +42,16 @@ df = pd.concat(li, axis=0, ignore_index=True)
 
 # membuat tampilan aplikasi dengan Streamlit
 
+st.set_option('deprecation.showPyplotGlobalUse', False) # tambahkan baris ini
+
 st.write("<h1 style='text-align: center'>Prediksi Harga Koin Kripto</h1>", unsafe_allow_html=True)
 
 # Menambahkan input form prediksi
 
 coin_list = sorted(df['Coin'].unique())
 
-coin_choice = st.sidebar.selectbox('Pilih Koin', coin_list)
+coin_choice = st.sidebar.selectbox('Pilih Koin', coin_lis)
+
 
 feature_cols = ['High', 'Low', 'Open', 'Close', 'Volume', 'Marketcap']
 
